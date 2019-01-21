@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <script type="text/javascript">
+      function myFirstComponent (v1, v2, v3) {
+      var write = "My name is" + v1 + v2 + "and I'm" + v3 + "yrs.";
+        return write;
+      }
+  </script>
+    </head>
 <body>
 <script type="text/javascript">
 var fn = "Vladimir";
 var ln = "Jacinthe";
 var ag = 20;
 
-document.write("My name is" + fn + ln + "and I'm" + ag + "yrs.");
+document.write(myFirstComponent(fn,ln,ag) );
 </script>
 </body>
 </html>
