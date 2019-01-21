@@ -3,7 +3,7 @@
   <head>
     <script type="text/javascript">
       function myFirstComponent (v1, v2, v3) {
-      var write = "My name is" + v1 + v2 + "and I'm" + v3 + "yrs.";
+      var write = "My name is " + v1 + v2 + " and I'm " + v3 + " yrs.";
         return write;
       }
   </script>
@@ -17,7 +17,8 @@ var ag = 20;
 document.write(myFirstComponent(fn,ln,ag) );
   
  var dood = myFirstComponent("dood", "broia", 35);
-  dood.write();
+ 
+ document.write(dood);
 </script>
 </body>
 </html>
