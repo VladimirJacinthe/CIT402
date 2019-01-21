@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script type="text/javascript">
+var fn = "Vladimir";
+var ln = "Jacinthe";
+var ag = 20;
+
+document.write("My name is" + fn + ln + "and I'm" + ag + "yrs.");
+</script>
+</body>
+</html>
