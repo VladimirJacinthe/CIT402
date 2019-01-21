@@ -13,8 +13,11 @@
 var fn = "Vladimir";
 var ln = "Jacinthe";
 var ag = 20;
-
+  
 document.write(myFirstComponent(fn,ln,ag) );
+  
+ var dood = myFirstComponent("dood", "broia", 35);
+  dood.write();
 </script>
 </body>
 </html>
